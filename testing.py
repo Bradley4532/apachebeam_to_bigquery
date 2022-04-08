@@ -1,8 +1,5 @@
 import pandas as pd
 import numpy as np
-import json
-from pathlib import Path
-from pandas import json_normalize
 from google.cloud import bigquery
 from google.oauth2 import service_account
 
@@ -24,12 +21,12 @@ try:
     SchemaJob = client.get_table(table_ref)
     print("Table Schema: {}".format(SchemaJob.schema))
     for s in SchemaJob.schema:
-        print(s)
         table_sch += s.name + ":" + s.field_type + "," 
     
     #Gets rid of last character ","
     table_sch = table_sch[:-1]
     print(table_sch)
+    #OUTPUT: 'name:STRING,email:STRING,id:FLOAT'
 except Exception as e:
     print(e)
         
