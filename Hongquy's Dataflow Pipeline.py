@@ -19,48 +19,44 @@ pip install apache-beam[interactive]
 pip install pandas
 
 
-# In[ ]:
+# In[16]:
 
 
-import apache_beam as beam
-import pandas
-import argparse
-import re
-from apache_beam.options.pipeline_options import PipelineOptions
+#import apache_beam as beam
+#import pandas
+#import argparse
+#import re
+#from apache_beam.options.pipeline_options import PipelineOptions
 
-class FilterRecord(beam.DoFn):
-    def process(self, element):
-        flag = 0
-        for x in range(0, len(element)):
-            if(element[x].strip().isalpha()):
-                flag = 1
-            elif('.' in element[x]):
-                flag = 1
-            elif(len(element[x]) == 0):
-                flag = 1
-            else:
-                pass
-        if(flag == 0):
-            yield beam.pvalue.TaggedOutput('Good', element)
-        else:
-            yield beam.pvalue.TaggedOutput('Bad', element)
+#class FilterRecord(beam.DoFn):
+#    def process(self, element):
+#        flag = 0
+#        for x in range(0, len(element)):
+#            if(element[x].strip().isalpha()):
+#                flag = 1
+#            elif('.' in element[x]):
+#                flag = 1
+#            elif(len(element[x]) == 0):
+#                flag = 1
+#            else:
+#                pass
+#        if(flag == 0):
+#            yield beam.pvalue.TaggedOutput('Good', element)
+#        else:
+#            yield beam.pvalue.TaggedOutput('Bad', element)
     
-with beam.Pipeline() as pipeline:
-    good, bad = (
-        pipeline
-        | beam.io.ReadFromText("CSVFileTest.csv", skip_header_lines = True)
-        | beam.Map(lambda x : x.split(","))
-        | beam.ParDo(FilterRecord()).with_outputs("Good", "Bad")
-    )
-    s = (good
-         | 'Good print' >> beam.io.WriteToText("GoodTest.csv", shard_name_template = "")
-    )
-    d = ( bad
-         | 'Bad print'>> beam.io.WriteToText("BadTest.csv", shard_name_template = "")
-         )
+#with beam.Pipeline() as pipeline:
+#    good, bad = (
+#        pipeline
+#        | beam.io.ReadFromText("CSVFileTest.csv", skip_header_lines = True)
+#        | beam.Map(lambda x : x.split(","))
+#        | beam.ParDo(FilterRecord()).with_outputs("Good", "Bad")
+#   )
+ #   good| 'Good print' >> beam.Map(print)
+   
 
 
-# In[5]:
+# In[17]:
 
 
 import apache_beam as beam
@@ -68,6 +64,8 @@ import pandas
 import argparse
 import os
 from apache_beam.options.pipeline_options import PipelineOptions
+from apache_beam.io.gcp.internal.clients import bigquery
+
 
 class FilterRecord(beam.DoFn):
     def process(self, element):
@@ -90,6 +88,19 @@ class FilterRecord(beam.DoFn):
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'lucid-timing-343502-bcf3aa48c017.json'
 input_file = 'gs://random-bucket-124125412/CSVFileTest.csv'
 output_path = 'gs://random-bucket-124125412/counts.txt'
+
+table_spec = bigquery.TableReference(
+    projectId='lucid-timing-343502',
+    datasetId='TestDataSet',
+    tableId='Test')
+
+table_schema = {
+    'fields': [
+        {'name': 'key', 'type': 'STRING', 'mode': 'NULLABLE'}, 
+        {'name': 'value', 'type': 'STRING', 'mode': 'REQUIRED'},
+        {'name': 'test', 'type': 'STRING', 'mode': 'NULLABLE'}
+    ]
+}
 
 parser = argparse.ArgumentParser()
 
@@ -127,14 +138,15 @@ with beam.Pipeline(options=beam_options) as pipeline:
         | beam.Map(lambda x : x.split(","))
         | beam.ParDo(FilterRecord()).with_outputs("Good", "Bad")
     )
-    s = (good
-         #| 'Good print' >> beam.io.WriteToText(args.output_path, shard_name_template = "")
-         | 'Good print' >> beam.io.WriteToText('gs://random-bucket-124125412/Good.csv', shard_name_template = "")
-    )
-    d = ( bad
-         #| 'Bad print'>> beam.io.WriteToText(args.output_path, , shard_name_template = "")
-         | 'Bad print' >> beam.io.WriteToText('gs://random-bucket-124125412/Bad.csv', shard_name_template = "")
-         )
+    #good | "print" >> beam.Map(print)
+  # good | beam.io.WriteToBigQuery(
+  #      table_spec,
+  #      schema=table_schema,
+  #      write_disposition=beam.io.BigQueryDisposition.WRITE_TRUNCATE,
+  #      create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED) 
+    
+    bad | beam.io.WriteToText('gs://random-bucket-124125412/Bad.csv', shard_name_template = "")
+  
 
 
 # In[ ]:
