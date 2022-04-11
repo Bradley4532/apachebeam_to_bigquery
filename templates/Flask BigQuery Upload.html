@@ -1,0 +1,19 @@
+<form action="/upload" method = "POST" enctype = "multipart/form-data">
+<body style = "background-color:grey;">
+	<div style = 
+    		"margin: 0;
+    		position: absolute;
+    		top: 50%;
+    		left: 50%;
+    		margin-right: -50%;
+    		transform: translate(-50%, -50%)">
+	{%for i in someFiles%}
+    	<p><input type="checkbox" name="checks" value={{i}}>{{i}}</p>
+	{%endfor%}
+	<p>Send files to BQ <input type = "submit", name = "submitButton", value = "BQ Upload" /></p>
+    	<p>Submit files here <input type = "file", name = "filer" /></p>
+    	<p><input type = "submit", name = "submitButton", value = "File Upload" /></p>
+	</div>
+	
+</body>
+</form>
