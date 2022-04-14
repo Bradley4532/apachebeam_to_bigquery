@@ -1,5 +1,3 @@
-Rows
-
 Cannot convert value to floating point (bad value): by2
 Cannot convert value to floating point (bad value): by13
 Cannot convert value to floating point (bad value): by7
