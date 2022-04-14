@@ -63,7 +63,7 @@ beam_options = PipelineOptions(
 #            )
   
 #(events[beam.io.gcp.bigquery.BigQueryWriteFn.FAILED_ROWS]
-# | "Bad lines" >> beam.io.WriteToText('gs://practice_error_logs/{}'.format("practiceError"), shard_name_template = ""))
+# | "Bad lines" >> beam.io.WriteToText('gs://practice_error_logs2/{}'.format("practiceError"), shard_name_template = ""))
 
 #result = p.run()
 #list_sinks()
@@ -81,4 +81,4 @@ logger = client.logger(name="dataflow.googleapis.com%2Fworker")
 #for entry in client.list_entries(filter_=filter_str):
 #    print(entry)
 for entry in logger.list_entries(filter_=filter_str):  # API call(s)
-    print(entry)
+    print(entry.to_api_repr()['jsonPayload']['message'])
