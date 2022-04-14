@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[11]:
-
-
 import apache_beam as beam
 import pandas
 import argparse
@@ -73,18 +67,18 @@ beam_options = PipelineOptions(
 
 #result = p.run()
 #list_sinks()
+#filter_str = (
+#    f'logName="projects/lucid-timing-343502/logs/dataflow.googleapis.com%2Fworker"'
+#    f' AND resource.type="dataflow_step"'
+#    f' AND severity >= ERROR'
+#)
 filter_str = (
-    f'logName="projects/lucid-timing-343502/logs/dataflow.googleapis.com%2Fworker"'
-    f' AND resource.type="dataflow_step"'
+    f' resource.type="dataflow_step"'
     f' AND severity >= ERROR'
 )
 client = google.cloud.logging.Client()
-for entry in client.list_entries(filter_=filter_str):
+logger = client.logger(name="dataflow.googleapis.com%2Fworker")
+#for entry in client.list_entries(filter_=filter_str):
+#    print(entry)
+for entry in logger.list_entries(filter_=filter_str):  # API call(s)
     print(entry)
-
-
-# In[ ]:
-
-
-
-
