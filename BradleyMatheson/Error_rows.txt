@@ -1,0 +1,43 @@
+Rows
+
+Cannot convert value to floating point (bad value): by2
+Cannot convert value to floating point (bad value): by13
+Cannot convert value to floating point (bad value): by7
+Cannot convert value to floating point (bad value): by35
+Cannot convert value to floating point (bad value): by25
+Cannot convert value to floating point (bad value): by30
+Cannot convert value to floating point (bad value): by6
+Cannot convert value to floating point (bad value): by2
+Cannot convert value to floating point (bad value): by
+Cannot convert value to floating point (bad value): by1
+Cannot convert value to floating point (bad value): by5
+Cannot convert value to floating point (bad value): by3
+Cannot convert value to floating point (bad value): by23
+Cannot convert value to integer (bad value): 
+Cannot convert value to floating point (bad value): by15
+Cannot convert value to floating point (bad value): by31
+Cannot convert value to floating point (bad value): by27
+Cannot convert value to floating point (bad value): by34
+Cannot convert value to floating point (bad value): by8
+Cannot convert value to floating point (bad value): 
+Cannot convert value to floating point (bad value): by14
+Cannot convert value to floating point (bad value): by18
+Cannot convert value to floating point (bad value): by12
+Cannot convert value to floating point (bad value): by26
+Cannot convert value to floating point (bad value): by33
+Cannot convert value to floating point (bad value): by11
+Cannot convert value to floating point (bad value): by24
+Cannot convert value to floating point (bad value): by21
+Cannot convert value to floating point (bad value): by4
+Cannot convert value to floating point (bad value): by22
+Cannot convert value to floating point (bad value): by32
+Cannot convert value to floating point (bad value): by36
+Cannot convert value to floating point (bad value): by29
+Cannot convert value to floating point (bad value): by28
+Cannot convert value to integer (bad value): hello
+Cannot convert value to floating point (bad value): by10
+Cannot convert value to floating point (bad value): by9
+Cannot convert value to floating point (bad value): by19
+Cannot convert value to floating point (bad value): by16
+Cannot convert value to floating point (bad value): by17
+Cannot convert value to floating point (bad value): by20
