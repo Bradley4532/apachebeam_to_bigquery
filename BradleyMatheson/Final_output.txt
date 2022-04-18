@@ -1,0 +1,41 @@
+Error #0 - Message: Cannot convert value to floating point (bad value): by25 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by25', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by14 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by14', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by11 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by11', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by23 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by23', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to integer (bad value):  in column id - Input: {'name': 'Brad1', 'id': '', 'salary_in_k': '10.4', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by28 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by28', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by30 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by30', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to integer (bad value): hello in column id - Input: {'name': 'Brad2', 'id': 'hello', 'salary_in_k': '10.4', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by10 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by10', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by3 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by3', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value):  in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': '', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by6 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by6', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by7 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by7', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by17 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by17', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by36 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by36', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by29 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by29', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by35 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by35', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by32 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by32', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by27 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by27', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by9 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by9', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by26 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by26', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by8 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by8', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by18 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by18', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by13 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by13', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by20 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by20', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by31 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by31', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by1 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by1', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by24 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by24', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by21 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by21', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by5 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by5', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by16 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by16', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by34 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by34', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by12 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by12', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by33 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by33', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by2 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by2', 'phonenumber': '8288884444'}
+Error #1 - Message: Cannot convert value to floating point (bad value): by2 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by2', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by22 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by22', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by15 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by15', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by4 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by4', 'phonenumber': '8288884444'}
+Error #0 - Message: Cannot convert value to floating point (bad value): by19 in column salary_in_k - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by19', 'phonenumber': '8288884444'}
