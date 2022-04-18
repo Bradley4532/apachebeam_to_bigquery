@@ -1,0 +1,41 @@
+Error #0 - Message: Cannot convert value to floating point (bad value): by36 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by36', 'phonenumber': '8288884444'}
+Error #1 - Message: Cannot convert value to floating point (bad value): by29 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by29', 'phonenumber': '8288884444'}
+Error #2 - Message: Cannot convert value to floating point (bad value): by25 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by25', 'phonenumber': '8288884444'}
+Error #3 - Message: Cannot convert value to floating point (bad value): by17 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by17', 'phonenumber': '8288884444'}
+Error #4 - Message: Cannot convert value to floating point (bad value): by23 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by23', 'phonenumber': '8288884444'}
+Error #5 - Message: Cannot convert value to floating point (bad value): by10 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by10', 'phonenumber': '8288884444'}
+Error #6 - Message: Cannot convert value to floating point (bad value):  - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': '', 'phonenumber': '8288884444'}
+Error #7 - Message: Cannot convert value to floating point (bad value): by9 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by9', 'phonenumber': '8288884444'}
+Error #8 - Message: Cannot convert value to floating point (bad value): by13 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by13', 'phonenumber': '8288884444'}
+Error #9 - Message: Cannot convert value to floating point (bad value): by24 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by24', 'phonenumber': '8288884444'}
+Error #10 - Message: Cannot convert value to floating point (bad value): by27 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by27', 'phonenumber': '8288884444'}
+Error #11 - Message: Cannot convert value to floating point (bad value): by31 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by31', 'phonenumber': '8288884444'}
+Error #12 - Message: Cannot convert value to floating point (bad value): by32 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by32', 'phonenumber': '8288884444'}
+Error #13 - Message: Cannot convert value to floating point (bad value): by21 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by21', 'phonenumber': '8288884444'}
+Error #14 - Message: Cannot convert value to floating point (bad value): by26 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by26', 'phonenumber': '8288884444'}
+Error #15 - Message: Cannot convert value to floating point (bad value): by15 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by15', 'phonenumber': '8288884444'}
+Error #16 - Message: Cannot convert value to floating point (bad value): by8 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by8', 'phonenumber': '8288884444'}
+Error #17 - Message: Cannot convert value to floating point (bad value): by12 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by12', 'phonenumber': '8288884444'}
+Error #18 - Message: Cannot convert value to floating point (bad value): by28 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by28', 'phonenumber': '8288884444'}
+Error #19 - Message: Cannot convert value to floating point (bad value): by33 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by33', 'phonenumber': '8288884444'}
+Error #20 - Message: Cannot convert value to floating point (bad value): by20 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by20', 'phonenumber': '8288884444'}
+Error #21 - Message: Cannot convert value to floating point (bad value): by4 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by4', 'phonenumber': '8288884444'}
+Error #22 - Message: Cannot convert value to floating point (bad value): by14 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by14', 'phonenumber': '8288884444'}
+Error #23 - Message: Cannot convert value to floating point (bad value): by16 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by16', 'phonenumber': '8288884444'}
+Error #24 - Message: Cannot convert value to floating point (bad value): by3 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by3', 'phonenumber': '8288884444'}
+Error #25 - Message: Cannot convert value to floating point (bad value): by22 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by22', 'phonenumber': '8288884444'}
+Error #26 - Message: Cannot convert value to integer (bad value): hello - Input: {'name': 'Brad2', 'id': 'hello', 'salary_in_k': '10.4', 'phonenumber': '8288884444'}
+Error #27 - Message: Cannot convert value to floating point (bad value): by11 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by11', 'phonenumber': '8288884444'}
+Error #28 - Message: Cannot convert value to floating point (bad value): by35 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by35', 'phonenumber': '8288884444'}
+Error #29 - Message: Cannot convert value to floating point (bad value): by1 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by1', 'phonenumber': '8288884444'}
+Error #30 - Message: Cannot convert value to floating point (bad value): by2 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by2', 'phonenumber': '8288884444'}
+Error #31 - Message: Cannot convert value to floating point (bad value): by2 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by2', 'phonenumber': '8288884444'}
+Error #32 - Message: Cannot convert value to integer (bad value):  - Input: {'name': 'Brad1', 'id': '', 'salary_in_k': '10.4', 'phonenumber': '8288884444'}
+Error #33 - Message: Cannot convert value to floating point (bad value): by30 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by30', 'phonenumber': '8288884444'}
+Error #34 - Message: Cannot convert value to floating point (bad value): by5 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by5', 'phonenumber': '8288884444'}
+Error #35 - Message: Cannot convert value to floating point (bad value): by - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by', 'phonenumber': '8288884444'}
+Error #36 - Message: Cannot convert value to floating point (bad value): by19 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by19', 'phonenumber': '8288884444'}
+Error #37 - Message: Cannot convert value to floating point (bad value): by7 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by7', 'phonenumber': '8288884444'}
+Error #38 - Message: Cannot convert value to floating point (bad value): by18 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by18', 'phonenumber': '8288884444'}
+Error #39 - Message: Cannot convert value to floating point (bad value): by6 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by6', 'phonenumber': '8288884444'}
+Error #40 - Message: Cannot convert value to floating point (bad value): by34 - Input: {'name': 'Brad3', 'id': '394', 'salary_in_k': 'by34', 'phonenumber': '8288884444'}
