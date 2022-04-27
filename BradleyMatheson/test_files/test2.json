@@ -1,0 +1,16 @@
+{
+    "foo": [
+        {"name": "Brad","id": 394,"salary_in_k": 10.4, "phonenumber": "44444","limit": "str","num": 9.9E+6,"bytes": "16D6M7PN3w7Cn8mJyrmrUSZY9ummMf5QCGEMuiSmSlw","time": "2019-08-21 12:30:00.45","geo": "POINT(51.500989020415034 -0.12471081312336843)","new": "True"},
+        {"name": "Brad","id": 394,"salary_in_k": 10.4,"phonenumber": "44444","limit": "str","num": 9.9E+6,"bytes": "16D6M7PN3w7Cn8mJyrmrUSZY9ummMf5QCGEMuiSmSlw","time": "2019-08-21 12:30:00.45","geo": "POINT(51.500989020415034 -0.12471081312336843)","new": "True"},
+        {"name": "Brad","id": 394,"salary_in_k": 10.4,"phonenumber": "44444","limit": "str","num": 9.9E+6,"bytes": "16D6M7PN3w7Cn8mJyrmrUSZY9ummMf5QCGEMuiSmSlw","time": "2019-08-21 12:30:00.45","geo": "POINT(51.500989020415034 -0.12471081312336843)","new": "True"},
+        {"name": "Brad","id": 394,"salary_in_k": 10.4,"phonenumber": "44444","limit": "str","num": 9.9E+10,"bytes": "16D6M7PN3w7Cn8mJyrmrUSZY9ummMf5QCGEMuiSmSlw","time": "2019-08-21 12:30:00.45","geo": "POINT(51.500989020415034 -0.12471081312336843)","new": "True"},
+        {"name": "Brad","id": 394,"salary_in_k": 10.4,"phonenumber": "44444","limit": "strstrstrstr"},
+        {"name": "Brad","id": 394,"salary_in_k": 10.4,"phonenumber": "44444","num": 9.9999999999999999999999999999999999999E+40},
+        {"name": "Brad","id": 394,"salary_in_k": 10.4,"phonenumber": "44444","bytes": "@@@@#####)(*&%$"},
+        {"name": "Brad","id": 394,"salary_in_k": 10.4,"phonenumber": "44444","time": "nowtime"},
+        {"name": "Brad","id": 394,"salary_in_k": 10.4,"phonenumber": "44444","geo": "here"},
+        {"name": "Brad","id": 394,"salary_in_k": 10.4,"phonenumber": "44444","new": "old"},
+        {"name": "Brad","id": 394,"salary_in_k": 10.4,"phonenumber": "44444"},
+        {"name": "brad"}
+    ]
+}
